@@ -45,6 +45,7 @@ header {
     margin-bottom: 2rem;
   }
   p {
+    text-shadow: 2px 3px 2px #5e1e7e;
     font-size: 4vw;
     margin-bottom: 2rem;
   }
@@ -215,3 +216,4 @@ a {
     }
   }
 }
+
