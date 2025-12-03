@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logotb.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>portfólio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/logotb.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Thiago Ventura
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#hero" class="nav-link">Ínicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sobre" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#grid" class="nav-link">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contato" class="nav-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Thiago Ventura </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample01"
+          aria-controls="navbarsExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero"
+                >inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#grid">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="divPai">
+      <video src="img/zoro.mp4" autoplay muted loop></video>
+      <section class="hero" id="hero">
+        <h1>Criando experiências</h1>
+        <p>Transformo suas ideias em realidade!</p>
+        <div class="container-botoes">
+          <a href="#grid"><button class="btn btn-primary">Projetos</button></a>
+          <a href="#contato"
+            ><button class="btn btn-secondary">Contato</button></a
+          >
+        </div>
+      </section>
+      <section class="sobre" id="sobre">
+        <img src="img/perfil.JPEG" alt="foto_de_perfil" />
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá! Sou Thiago Ventura, um desenvolvedor web apaixonado por criar
+          experiências digitais incríveis. Com habilidades em HTML, CSS,
+          JavaScript e frameworks modernos como o Three.js, estou sempre em
+          busca de novos desafios para aprimorar minhas habilidades e entregar
+          soluções inovadoras aos meus clientes.
+        </p>
+      </section>
+      <section class="grid" id="grid">
+        <h2>Meus Projetos</h2>
+        <div class="container">
+          <div class="row mb-3 text-center">
+            <div class="col-md-4 themed-grid-col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/numsecreto.png"
+                  class="card-img-top"
+                  alt="numero secreto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Jogo de Adivinhação</h5>
+                  <p class="card-text">
+                    Um jogo onde o usuário tenta adivinhar um número secreto
+                    gerado aleatoriamente usando JavaScript.
+                  </p>
+                  <a
+                    href="https://jogosumerosecreto-bice.vercel.app/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Acessar</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 themed-grid-col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/mario.png"
+                  class="card-img-top"
+                  alt="portfólio do mario"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">portfólio do mario</h5>
+                  <p class="card-text">
+                    Um portfólio inspirado no personagem Mario,com seções de
+                    sobre e contato, criado com HTML, CSS e Jquery.
+                  </p>
+                  <a
+                    href="https://thiagoventurav.github.io/portfoliodomario/sobre.html"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Confira</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 themed-grid-col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/slide.png"
+                  class="card-img-top"
+                  alt="site de slide"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Slide em Site</h5>
+                  <p class="card-text">
+                    Um site com um slide interativo que permite navegar entre
+                    diferentes seções usando HTML, CSS e JavaScript.
+                  </p>
+                  <a
+                    href="https://thiagoventurav.github.io/Slide/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Acessar</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contato" id="contato">
+        <h2>Contato</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <a href="https://www.instagram.com/thventurav/" target="_blank"
+          ><i class="fab fa-instagram"></i> instagram</a
+        >
+        <a
+          href="https://www.linkedin.com/in/thiago-ventura-velez-de-andrade-b85a5437a"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i> linkedin</a
+        >
+        <a href="https://github.com/ThiagoVenturaV" target="_blank"
+          ><i class="fab fa-github"></i> github</a
+        >
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2025 Thiago Ventura. Todos os direitos reservados.</p>
+      &nbsp;
+      <a href="#hero">Voltar ao topo</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
