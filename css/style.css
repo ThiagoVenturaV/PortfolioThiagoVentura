@@ -140,7 +140,7 @@ a {
     box-sizing: border-box;
   }
   .divPai {
-    background-image: url("img/zorogif.gif");
+    background-image: url("/img/zorogif.gif");
     background-attachment: fixed;
     background-size: cover;
   }
@@ -215,4 +215,3 @@ a {
     }
   }
 }
-
