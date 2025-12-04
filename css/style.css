@@ -78,6 +78,7 @@ header {
     font-size: 1.5rem;
     max-width: 600px;
     text-align: left;
+    text-shadow: 2px 3px 2px #5e1e7e;
   }
 }
 .grid {
@@ -216,4 +217,5 @@ a {
     }
   }
 }
+
 
